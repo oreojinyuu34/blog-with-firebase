@@ -20,23 +20,36 @@
 }
 
 .postHeader h1 {
+  font-size: 24px;
   text-align: center;
   margin-top: 5px;
 }
 
-.postContents .postTextContainer {
+.postTextContainer {
   height: auto;
   word-wrap: break-word;
-  max-height: 400px;
+  max-height: 500px;
   width: 100%;
+  white-space: pre-wrap;
+}
+.postTextContainer h3 {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .nameAndDeleteButton {
+  /* display: none; */
   display: flex;
+  justify-content: flex-end;
   align-items: center;
+  margin-top: 5px;
+}
+.nameAndDeleteButton h3 {
+  font-size: 14px;
+  font-weight: 400;
 }
 
-.nameAndDeleteButton button {
+/* .nameAndDeleteButton button {
   flex: 10%;
   background-color: rgb(220, 88, 88);
   color: white;
@@ -46,10 +59,11 @@
   cursor: pointer;
   transition: all 0.3s;
 }
+
 .nameAndDeleteButton button:hover {
   background-color: rgb(221, 38, 38);
 }
 
 .nameAndDeleteButton h3 {
   flex: 90%;
-}
+} */

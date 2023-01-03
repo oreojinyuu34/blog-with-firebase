@@ -1,5 +1,6 @@
 {
-  "name": "blog-with-firebase",
+  "homepage": "https://favorite.tank.jp",
+  "name": "blog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

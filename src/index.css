@@ -12,3 +12,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Certification {
+  margin: 30px auto;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  gap: 10px;
+  padding: 0 40px;
+  box-shadow: 15px 16px 26px -15px #777777;
+}
+.Certification button {
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}

@@ -14,7 +14,7 @@ const Login = ({setIsAuth}) => {
     });
   };
   return (
-    <div>
+    <div className='Certification'>
       <p>ログインして始める</p>
       <button onClick={loginInWithGoogle}>googleでログイン</button>
 
